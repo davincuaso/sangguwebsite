@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ateneo Sanggunian</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_forms.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="top_header">
+    <img src="images/img1.png">
+    <div class="top_header-gradient">
+      <div class="top_header-text">
+        <h1>
+          Sabihin Sa Sanggu
+          <span>Student Rights and Welfare Desks (STRAWdesks)</span>
+        </h1>
+        <h3>The Resource Partnership Program is an initiative by the Sanggunian to provide support for organizations that create projects that raise awareness and contribute to nation building.</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="main_content-white">
+    <div class="form_signup">
+      <div class="sanggu_form">
+        <div class="sanggu_form-left">
+          <h1>Concerns You Can Forward to Us</h1>
+
+          <h2>Academic Concerns</h2>
+          <p>These are issues that are academic in nature; concerns about the curriculum, classes, professors, grades, and others related to these fall under this category.</p>
+
+          <h2>Administrative/Facilities-Related Concerns</h2>
+          <p>Issues with the facilities, services, and general operations of the Loyola Schools administration may be brought up as well.</p>
+
+          <h2>Safety and Welfare Concerns</h2>
+          <p>The Sanggunian may provide assistance in cases of student rights violations, whether peer-to-peer or against someone from the faculty/administration. These include but are not limited to: physical assault, sexual misconduct and discrimination/harassment.</p>
+
+          <h2>Other</h2>
+          <p>These are concerns that do not fall under any of the three categories.</p>
+        </div>
+        <div class="sanggu_form-right">
+
+          <h6>SCHOOL</h6>
+          <select name="straw_school">
+            <option value="school_soss">SOSS</option>
+            <option value="school_soh">SOH</option>
+            <option value="school_sose">SOSE</option>
+            <option value="school_jgsom">JGSOM</option>
+          </select>
+
+          <h6>NAME</h6>
+          <input type="text">
+
+          <h6>YEAR AND COURSE</h6>
+          <input type="text">
+
+          <h6>EMAIL</h6>
+          <input type="text">
+
+          <h6>CONTACT NUMBER</h6>
+          <input type="text">
+
+          <h6>TYPE OF CONCERN</h6>
+          <select name="straw_concern">
+            <option value="academic">Academic Concerns</option>
+            <option value="admin">Administrative/Facilities-Related Concerns</option>
+            <option value="safety">Safety & Welfare Concerns</option>
+            <option value="other">Other</option>
+          </select>
+
+          <h6>DESCRIPTION OF CONCERN</h6>
+          <textarea></textarea>
+
+          <input type="submit" value="Submit">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="main_footer">
+
+  </footer>
+  <div class="secondary_footer">
+    <p>Copyright 2019 Ateneo Heights | Passionately made by User Experience Society</p>
+  </div>
+
+</body>
+
+</html>

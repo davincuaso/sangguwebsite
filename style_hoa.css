@@ -1,0 +1,155 @@
+/* HoA-specific */
+.hoa_previews { display: flex; flex-wrap: wrap; justify-content: space-between; }
+.hoa_previews-container { width: 360px; margin-bottom: 30px; }
+
+.hoa_previews-img { width: 360px; height: 390px; overflow: hidden; background: #c4c4c4; }
+.hoa_previews-img img { width: 360px; }
+.hoa_previews-container h1 { font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+color: #010570;}
+.hoa_previews-container p { font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 25px;
+text-align: justify;
+color: #333333; margin: 0px; margin-top: 18px; margin-bottom: 18px; }
+.hoa_previews-read { font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 16px;
+text-align: right;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #4F4F4F; display: block;  }
+
+.hoa_article { display: flex; justify-content: space-between; flex-wrap: wrap; }
+.hoa_article-main { width: 50%; }
+.hoa_article-side { width: 45%; }
+.hoa_article-side img { width: 100%; }
+.hoa_article-side h2 { font-family: Open Sans;
+font-style: italic;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+text-align: justify;
+letter-spacing: 0.02em;
+color: #010570; margin-top: 20px; }
+
+.hoa_article-main-title { margin: 0px; font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+color: #010570; }
+
+.hoa_article-main-subtitle { font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+text-align: justify;
+letter-spacing: 0.02em;
+color: #474747; margin-bottom: 30px; }
+
+.hoa_article-main p { font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+text-align: justify;
+letter-spacing: 0.02em;
+color: #4F4F4F; }
+.hoa_article-main span { font-family: Open Sans;
+font-style: normal;
+font-size: 11px;
+line-height: 14px;
+text-align: justify;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #2B2B2B; }
+.hoa_article-main h1 { font-family: Open Sans;
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+text-align: justify;
+letter-spacing: 0.02em;
+color: #4F4F4F; }
+.hoa_article-main h2 { font-family: Open Sans;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+text-align: justify;
+letter-spacing: 0.02em;
+color: #4F4F4F; }
+
+.article-next_con { display: flex; justify-content: flex-start; width: 100%; }
+.hoa_article-next { width: 44vw; margin-top: 30px; text-decoration: none; color: white; border-radius: 4px; background-size: 44vw; height: 90px; }
+.hoa_article-next-inner { background: rgba(0,0,0,0.5); border-radius: 4px; padding: 0px 40px; height: 90px; }
+.hoa_article-next h4 { font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 16px;
+text-align: justify;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF; margin: 0px; padding-top: 30px; }
+.hoa_article-next h5 { font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: justify;
+color: #FFFFFF; margin: 0px;  }
+
+.top_header-button-back { border: 0px; background: transparent; color: white; font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 23px;
+letter-spacing: 0.05em;
+color: #FFFFFF; }
+.top_header-button-back svg { margin-right: 10px; }
+
+.hoa_signup h1 { font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+color: #010570; margin-bottom: 30px;  }
+
+@media screen and (max-width: 1000px) { .hoa_article { display: block; }
+.hoa_article-main { width: 100%; }
+.hoa_article-side { width: 100%; margin-top: 50px;  }
+.article-next_con { display: block; }
+.hoa_article-next { width: 100%; background-size: 100%; margin-top: 50px; }
+}
+
+@media screen and (max-width: 1280px) {
+.hoa_previews-container { width: 250px; }
+.hoa_previews-img { width: 240px; height: 260px; }
+.hoa_previews-img img { width: 240px; }
+}
+
+@media screen and (max-width: 900px) {
+.hoa_previews-container { width: 340px; }
+.hoa_previews-img { width: 340px; height: 360px; }
+.hoa_previews-img img { width: 340px; }
+}
+
+@media screen and (max-width: 780px) {
+.hoa_previews-container { width: 290px; }
+.hoa_previews-img { width: 290px; height: 310px; }
+.hoa_previews-img img { width: 240px; }
+}
+
+@media screen and (max-width: 670px) {
+.hoa_previews { justify-content: center; }
+}
