@@ -1,0 +1,12 @@
+[
+  {
+    "image": "screens/screen-01.jpg",
+    "caption": "Student services landing page",
+    "kind": "repository-render",
+    "source_commit": "1a89e95175344b9a1249bf0a62698e7eeba72a5e",
+    "source_files": [
+      "landing.html",
+      "style.css"
+    ]
+  }
+]
